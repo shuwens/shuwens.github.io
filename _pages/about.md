@@ -2,33 +2,50 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: Meta 
+
+[comment]: # description: <a href="#">Affiliations</a>. Address. Contacts. Moto. Etc.
+
 
 profile:
   align: right
-  image: prof_pic.jpg
+  image: shuwen_cropped.jpg
   image_circular: false # crops the image to make it circular
-  more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+  # more_info: >
+  #   <p>Joyce Cummings Center 453</p>
+  #   <p>177 College Ave</p>
+  #   <p>Medford, MA 02155</p>
 
+news: true # includes a list of news items
 selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true # includes social icons at the bottom of the page
-
-announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
-
-latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Research Scientist working on AI infra at
+[Meta](https://www.meta.com/about/). During my PhD, my research
+interests span broadly in the area of
+[systems](https://www.usenix.org/publications/login-logout/november-2013-login-logout/night-watch)
+and
+[networking](https://web.cs.ucla.edu/~lixia/papers/SIG2020-Talk-Lixia.pdf#page=39),
+with a focus on building large scale distributed storage systems. Right
+now, I work on problems related to systems and infrastructure for AI.
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+I completed my Ph.D. from [Khoury
+College](https://www.khoury.northeastern.edu/) at
+[Northeastern](https://www.northeastern.edu/) in Oct 2025 and was
+advised by [Peter Desnoyers](https://www.ccs.neu.edu/home/pjd/).  My
+dissertation, "[Towards an Efficient and Strongly-consistent Distributed
+Object Store](/assets/pdf/sun2025_dissertation.pdf)", focused on the
+efficiency problem in distributed storage systems by introducing **I/O
+amplification** as a key metric to measure storage system efficiency
+(the ratio of total device I/O to client-requested I/O). In the
+dissertation, I then present ZStore, an efficiency-first distributed
+object store that achieves **minimal I/O operations**: one NVMe read per
+GET request and k writes per PUT request under k-way replication. 
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Prior to Northeastern, I earned my M.S. (2017) in Computer Science from
+Boston University under the supervision of Prof. Orran Krieger and was
+affiliated to [Mass Open Cloud (MOC)](https://massopen.cloud/). During which my research revolved
+around performance diagnosis for distributed systems and datacenter
+networking. I also received a B.Eng. (2015) in Software Engineering from
+Sun Yat-sen University. 
