@@ -35,7 +35,7 @@ College](https://www.khoury.northeastern.edu/) at
 [Northeastern](https://www.northeastern.edu/) in Oct 2025 and was
 advised by [Peter Desnoyers](https://www.ccs.neu.edu/home/pjd/).  My
 dissertation, "[Towards an Efficient and Strongly-consistent Distributed
-Object Store](/assets/pdf/sun2025_dissertation.pdf)", focused on the
+Object Store](https://hdl.handle.net/2047/D20817766)", focused on the
 efficiency problem in distributed storage systems by introducing **I/O
 amplification** as a key metric to measure storage system efficiency
 (the ratio of total device I/O to client-requested I/O). In the
